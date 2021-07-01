@@ -594,30 +594,21 @@
 				<div class="wrapper">
 					<div class="left">
 						<div class="fields">
-							<form action="/" method="post" class="contact_form" id="contact_form" autocomplete="off" netlify>
-								<div class="returnmessage" data-success="Your message has been received, We will contact you soon."></div>
-								<div class="empty_notice"><span>Please Fill Required Fields</span></div>
-								<div class="first">
-									<ul>
-										<li>
-											<input id="name" type="text" placeholder="Name">
-										</li>
-										<li>
-											<input id="email" type="text" placeholder="Email">
-										</li>
-									</ul>
-								</div>
-								<div class="last">
-									<textarea id="message" placeholder="Message"></textarea>
-								</div>
-								<div class="shane_tm_button" data-position="left">
-									<a id="send_message" href="#">
-										<span>Send Message</span>
-									</a>
-								</div>
-
-								<!-- If you want to change mail address to yours, please open modal.php and go to line 4 -->
-
+							<form name="contact" method="POST" data-netlify="true">
+  <p>
+    <label>Your Name: <input type="text" name="name" /></label>   
+  </p>
+  <p>
+    <label>Your Email: <input type="email" name="email" /></label>
+  </p>
+ 
+  <p>
+    <label>Message: <textarea name="message"></textarea></label>
+  </p>
+  <p>
+    <button type="submit">Send</button>
+  </p>
+</form>
 							</form>
 						</div>
 					</div>
