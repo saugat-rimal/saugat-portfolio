@@ -1,3 +1,7 @@
 # saugat-portfolio
 Personal Portfolio
-https://cdn.statically.io/screenshot/full=true/saugatrimal.tech
+
+<br>
+<br>
+
+https://cdn.statically.io/screenshot/saugatrimal.tech
